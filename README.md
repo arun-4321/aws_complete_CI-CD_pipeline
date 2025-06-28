@@ -89,7 +89,7 @@ Before setting up the CI/CD pipeline, ensure you have:
 
 Run the following commands on your EC2 instance:
 
-```bash
+bash```
 sudo yum update -y
 sudo yum install ruby wget -y
 cd /home/ec2-user
