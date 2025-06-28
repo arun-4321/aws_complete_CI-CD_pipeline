@@ -89,14 +89,14 @@ Before setting up the CI/CD pipeline, ensure you have:
 
 Run the following commands on your EC2 instance:
 
-bash```
+bash ```
 sudo yum update -y
 sudo yum install ruby wget -y
 cd /home/ec2-user
 wget https://bucket-name.region.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
-sudo service codedeploy-agent start```
+sudo service codedeploy-agent start  ```
 
 
 
